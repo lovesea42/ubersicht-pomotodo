@@ -1,7 +1,7 @@
 settings:
   history: false
 
-command: 'curl -H "Authorization: token ' + '1IbE5gFinjpYmJ2PxbRFFX5jyNwJ18lMhf6eNzx6bbiDcBy53lPK8Y81OTuFjmaRFlkxi5bDLEfpCw79SGxLMS1ftVvCRJew' + '" https://api.pomotodo.com/1/todos -s'
+command: 'curl -H "Authorization: token ' + '' + '" https://api.pomotodo.com/1/todos -s'
 refreshFrequency: 10000
 
 render: (output) -> """
